@@ -1,0 +1,102 @@
+---
+title: GHC Demo Assignment
+subtitle: CSC 110 - Data Science & Society
+author: [Henry Hultquist]
+date: 10/13/2025
+format:
+  html:
+    theme: cosmo 
+    toc: true
+    toc-depth: 1
+    toc-location: body
+    fig-width: 8
+    fig-height: 5
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - heightrounded
+  pdf:
+    toc: true
+    toc-depth: 1
+    fig-width: 8
+    fig-height: 5
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - heightrounded
+---
+
+```{r}
+
+#| include: false
+library(tidyverse)
+```
+
+# Homework
+
+```{r}
+
+#| fig-cap:
+#|  - "Fuel Mileage Scatterplot"
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() +
+  labs(title = "Vehicle Engine Size vs. Highway Fuel Mileage", x = "Vehicle Engine Size", y = "Highway Fuel Mileage")
+```
+
+<https://www.davidson.edu>
+
+-   List of classes
+
+    -   PSY 314
+
+    -   PSY 401
+
+    -   EDU 291
+
+1.  The Office
+2.  The Wire
+3.  The Sopranos
+
+This is a footnote.[^1]
+
+[^1]: Here is the footnote.
+
+$$
+x = \frac{-b\pm\sqrt{b^2 - 4ac} } {2a}
+$$
+
+```{mermaid}
+flowchart LR
+  A[Stimuli] --> B(Thoughts)
+  B --> C{Behavior}
+  C --> D[Action 1]
+  C --> E[Action 2]
+```
+
+> Blockquote
+>
+> Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+
+::: callout-note
+Callout note.
+:::
+
+::: callout-tip
+Callout tip.
+:::
+
+::: {.callout-important collapse="true"}
+Callout important with collapse.
+:::
+
+{{< pagebreak >}}
+
+# Reflection
+
+The ordered list syntax will be very helpful for the website because it will help people really have a grasp of the thought process behind some of our decisions. The ordered list can be a very helpful organizing tool on our website so that viewers can understand the content more as well. Numbered lists can help us with ranking certain categories observations that we want to showcase as well. This can provide a much more accessible page for some who may be confused by some data results. Overall, this syntax can give us a powerful organizational tool that is fairly simple to utilize.
+
+Learning how to add a table of contents as well as manipulate what that looks like will also be helpful for the website. This can allow us to organize some of our content better. This will also allow viewers to efficiently find the content that is posted on the website. A table of contents provides a much cleaner look to a website as well making it more professional. Lastly, the table of contents is a simple way to explore the overall content of the created website.
+
+Adding a certain theme to the website will also be super helpful for me to use. Using a specific theme will help push across a clean and professional website overall. It can make the website more appealing to the eye. The theme can draw people's attention to certain areas that we want them to look at as well. A theme is a very easy way to make the data and information seem more approachable for the viewer. Overall, this syntax will allow the website to be better understood.
